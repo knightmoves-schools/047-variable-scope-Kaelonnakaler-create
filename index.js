@@ -4,7 +4,7 @@ let distanceInMiles = 100;
 
 return distanceInMiles / milesPerHour
 }
-document.getElementById("result").innerHTML = estimatedArrivalTime;
+document.getElementById("result").innerHTML = distanceInMiles;
 
 
 //should create a global variable named distanceInMiles and set it to 100
@@ -12,5 +12,6 @@ document.getElementById("result").innerHTML = estimatedArrivalTime;
 //should create a local vairable named milesPerHour within estimatedArrivalTime that is set to 50
 //should return the distanceInMiles divided by the milesPerHour from the estimatedArrivalTime function
 //should assign the innerHTML of the HTML element with the id result to return value from estimatedArrivalTime
+
 
 
